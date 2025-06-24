@@ -1,9 +1,0 @@
-
-services:
-  - type: worker
-    name: onewin044_bot
-    env: python
-    buildCommand: ""
-    startCommand: "python bot.py"
-    plan: free
-    autoDeploy: true
